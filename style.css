@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: Impact, sans-serif;
+    font-size: 80px;
+    margin: 53.6px 0px;
+    font-weight: 700;
+}
+
+.par {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+    margin: 35px 0px;
+    font-weight: 400;
+}
+
+#btn {
+    padding: 25px 80px;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(90deg, rgba(255, 255, 255, 1) 32%, rgba(252, 176, 69, 1) 63%);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#btn:hover {
+    background: rgb(252, 176, 69);
+    background: linear-gradient(90deg, rgba(252, 176, 69, 1) 36%, rgba(255, 255, 255, 1) 65%);
+    transition: background-color 0.5s;
+    cursor: pointer;
+}
+
+#inner {
+    font-family: 'Times New Roman',
+        Times,
+        serif;
+    font-size: 35px;
+    margin: 35px 0px;
+    font-weight: 400;
+}
